@@ -1,0 +1,122 @@
+/* discord: polarburr#9201 */
+
+head, body, input
+{
+    font-family: 'Product Sans';
+}
+
+body{
+    text-align: center;
+}
+
+.logo{
+    letter-spacing: -8px;
+    font-size: 40px;
+}
+
+.oo{
+    height: 40px;
+    margin-right: -8px;
+}
+
+button {
+
+    border: 1px solid white;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 10px;
+    color: #383838;
+}
+
+button:hover {
+    border: 1px solid lightgray;
+}
+
+input[type=submit] {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+input[type=submit]:hover {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.search{
+    margin-top: -30px;
+}
+
+.g_search{
+    padding: 20px;
+    border-radius: 40px;
+    width: 30%;
+    height: 0px;
+    border: 1px solid grey;
+}
+
+.g_search:hover {
+    box-shadow: 0 0 11px
+    rgba(33,33,33,.2);
+}
+
+.g_search:focus {
+    outline: none;
+    box-shadow: 0 0 11px
+    rgba(33,33,33,.2);
+}
+
+.a_search {
+    outline: none;
+    border: 1px solid grey;
+    padding: 3px;
+    width: 250px;
+}
+
+.a_search:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+#btn_a{
+    border: 1px solid lightblue;
+    background-color: royalblue;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#btn_a:hover{
+    border: 1px solid blue;
+}
+
+nav{
+    text-align: right;
+    margin-right: 25%;
+    font-size: small;
+    margin-top: 2%;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+td{
+    padding-left: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
